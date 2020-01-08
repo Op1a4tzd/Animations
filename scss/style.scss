@@ -1,7 +1,5 @@
 @import 'vars';
-.body{
-    
-}
+
 .back{
     background-image: url(../media/304984372168211.png);
 }
@@ -15,8 +13,16 @@
     align-items: center;
     flex-direction: column;
 }
+.marg{
+    top-margin: 5rem;
+}
 #bean{
-
+ 
+  }
+#bean:hover{
+    animation-name: pulse;
+    animation-duration: 5s;
+    filter: invert(1);
 }
 #boys{
 
@@ -30,3 +36,22 @@
 #carl{
 
 }
+
+@keyframes pulse {
+    from {
+
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  
