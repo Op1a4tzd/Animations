@@ -3,9 +3,14 @@
 }
 
 .WWIII {
-  font-size: 5rem;
+  font-size: 10rem;
   margin-top: 5rem;
-  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'Indie Flower', cursive;
+}
+
+.WWIII:hover {
+  color: white;
+  font-weight: bolder;
 }
 
 .top {
